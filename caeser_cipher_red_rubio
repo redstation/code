@@ -1,0 +1,62 @@
+caeser_cipher = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+pair = ""
+for x in range (len (caeser_cipher)):
+
+    m = caeser_cipher [x]
+
+    if m == 'A':
+        pair += 'C'
+    elif m == 'B':
+        pair += 'D'
+    elif m == 'C':
+        pair += 'E'
+    elif m == 'D':
+        pair += 'F'
+    elif m == 'E':
+        pair += 'G'
+    elif m == 'F':
+        pair += 'H'
+    elif m == 'G':
+        pair += 'I'
+    elif m == 'H':
+        pair += 'J'
+    elif m == 'I':
+        pair += 'K'
+    elif m == 'J':
+        pair += 'L'
+    elif m == 'K':
+        pair += 'M'
+    elif m == 'L':
+        pair += 'N'
+    elif m == 'M':
+        pair += 'O'
+    elif m == 'N':
+        pair += 'P'
+    elif m == 'O':
+        pair += 'Q'
+    elif m == 'P':
+        pair += 'R'
+    elif m == 'Q':
+        pair += 'S'
+    elif m == 'R':
+        pair += 'T'
+    elif m == 'S':
+        pair += 'U'
+    elif m == 'T':
+        pair += 'V'
+    elif m == 'U':
+        pair += 'W'
+    elif m == 'V':
+        pair += 'X'
+    elif m == 'W':
+        pair += 'Y'
+    elif m == 'X':
+        pair += 'Z'
+    elif m == 'Y':
+        pair += 'A'
+    elif m == 'Z':
+        pair += 'B'
+    else:
+        pair += m
+
+print (pair)
