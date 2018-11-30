@@ -1,0 +1,30 @@
+string = "1-2-3-4-5-6-7-8-9-10"
+P = ""
+
+for x in range(len(string)):
+    c_char = string[x]
+    if c_char == "1":
+        P += "1"
+    elif c_char == "2":
+        P += "2"
+    elif c_char == "3":
+        P += "3"
+    elif c_char == "4":
+        P += "S"
+    elif c_char == "5":
+        P += "5"
+    elif c_char == "6":
+        P += "6"
+    elif c_char == "7":
+        P += "7"
+    elif c_char == "8":
+        P += "S"
+    elif c_char == "9":
+        P += "9"
+    elif c_char == "10":
+        P += "10"
+
+    else:
+        P += c_char
+
+print(P)
