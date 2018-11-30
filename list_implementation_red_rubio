@@ -1,0 +1,143 @@
+Python Lists
+
+//text only*
+
+Sequence is the most basic data structure in Python, Each element of a sequence is assigned a number - its position or index. The first index is zero, the second index is one, and so forth.
+
+Python has six built-in types of sequences, but the most common ones are Lists and Tuples.
+
+The list is a most versatile datatype available in Python which can be written as
+
+a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type.
+
+Examples:
+
+list1 = ['Java', 'Visual Basic', 1997, 2000];
+
+list2 = [10, 20, 30, 40, 50];
+
+list3 = ["a", "b", "c", "d"];
+
+1) Accessing Values in Lists
+
+To access values in lists, use the square brackets for slicing along with the index.
+
+Examples:
+
+abc = ["Selenium", "UFT", "SilkTest", 100, 200, 300];
+
+print (abc);
+
+print (abc[1]);
+
+2) Updating Lists
+
+You can update single or multiple elements of lists by giving the slice on the
+
+left-hand side of the assignment operator, and you can add to elements in a list
+
+with the append() method.
+
+Examples:
+
+list = ['physics', 'chemistry', 1997, 2000];
+
+print (list);
+
+print (list[2]);
+
+list[2] = 9999;
+
+print (list);
+
+print (list[2]);
+
+3) Delete List Elements
+
+To remove a list element, you can use either the del statement if you know exactly which element(s) you are deleting or the remove() method if you do not know.
+
+Example:
+
+list1 = ['physics', 'chemistry', 1997, 2000];
+
+print (list1);
+
+del (list1[2]);
+
+print (list1);
+
+4) Built-in List Functions & Methods / Operations on Python Lists
+
+i) len()
+
+Gives the total length of the list.
+
+Example:
+
+list = [10, 20, 30, 40, 50];
+
+print (len(list));
+
+ii) max()
+
+Returns item from the list with max value.
+
+Example:
+
+list = [10, 20, 30, 40, 50];
+
+print (max(list));
+
+iii) min()
+
+Returns item from the list with min value.
+
+Example:
+
+list = [10, 20, 30, 40, 50];
+
+print (min(list));
+
+Methods with Description
+
+i) append() method
+
+Appends object obj to list
+
+Example:
+
+list = [10, 20, 30, 40, 50];
+
+print(list);
+
+list.append(70);
+
+print(list);
+
+ii) remove() method
+
+Removes element from list by element value.
+
+Example:
+
+list = [10, 20, 30, 40, 50];
+
+print(list);
+
+list.remove(50);
+
+print(list);
+
+iii) reverse() method
+
+Reverses elements of list in place
+
+Example:
+
+list = [10, 20, 30, 40, 50];
+
+print(list);
+
+list.reverse();
+
+print(list);
