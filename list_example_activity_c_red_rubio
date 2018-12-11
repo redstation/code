@@ -1,0 +1,21 @@
+thislist = ["1", "2", "3", "4", "5"]
+
+thislist.insert(1, "red")
+
+print(thislist)
+
+------------
+
+lists = ["A", "B", "C", "D", "E"]
+
+x = lists[3]
+
+print(x)
+
+--------------
+
+thislist = ["the", "quick", "brown", "fox", "jump"]
+
+for x in thislist:
+
+  print(x)
