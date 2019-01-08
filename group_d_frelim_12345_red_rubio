@@ -1,0 +1,68 @@
+1
+print(" --- number 1 --- ")
+
+number1 = ['1', '2', '3']
+print('number:', number1)
+reversed_list = number1[::-1]
+print('reverse:', reversed_list)
+
+number2 = ['5', '11', '9']
+print('number:', number2)
+reversed_list = number2[::-1]
+print('reverse:', reversed_list)
+
+number3 = ['7', '0', '0']
+print('number:', number3)
+reversed_list = number3[::-1]
+print('reverse:', reversed_list)
+
+3
+print(" --- number 3 --- ")
+
+sum2 = ([1,2,3])
+total = sum2[0]+sum2[0]+sum2[0]
+print(total)
+sum2 = ([1,1])
+total = sum2[0]+sum2[1]
+print(total)
+sum2 = ([1,1,1,1])
+total = sum2[0]+sum2[0]+sum2[0]+sum2[0]
+print(total, end = '\n')
+
+
+4
+print(" --- number 4 --- ")
+
+def squirrel_play(speed, bool):
+    false = 0
+    true = 1
+
+    if speed <= 0:
+        print("false")
+    elif speed >= 1 and speed <= 1:
+        print("true")
+    elif speed >= 1:
+        print("true")
+
+squirrel_play(1,1)
+squirrel_play(0,0)
+squirrel_play(1,1)
+
+5
+print(" --- number 5 --- ")
+
+def caught_speeding(speed, bool):
+    no_ticket = 0
+    small_ticket = 1
+    big_ticket = 2
+
+    if speed <= 60:
+        print(no_ticket)
+    elif speed >= 61 and speed <= 80:
+        print(small_ticket)
+    elif speed >= 81:
+        print(big_ticket)
+
+caught_speeding(60,False)
+caught_speeding(65,False)
+caught_speeding(65-5,True)
