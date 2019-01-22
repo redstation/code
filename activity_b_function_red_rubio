@@ -1,0 +1,28 @@
+print(" --- name --- ")
+
+name1 = ["RedRubio"]
+number2 = ['1', '2', '3', '4', '5', '6', '7', '8']
+
+
+for a in name1:
+    print(a, end='\t')
+
+print()
+for b in number2:
+    print(b, end='')
+print()
+
+
+
+print(" --- number --- ")
+
+
+sum3 = ([1,2,3])
+total = sum3[0]+sum3[1]+sum3[2]
+print(total)
+sum3 = ([4,5,6])
+total = sum3[0]+sum3[1]+sum3[2]
+print(total)
+sum3 = ([7,8,9])
+total = sum3[0]+sum3[1]+sum3[2]
+print(total, end = '\n')
