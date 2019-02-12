@@ -1,5 +1,5 @@
 #READ TEXT FILE
-print ("NAME : Felixandra Andal")
+print ("NAME : Red Rubio")
 print ("-----------------------")
 print (" ACTIVITY C ")
 print ("-----------------------")
