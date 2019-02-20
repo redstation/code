@@ -1,0 +1,249 @@
+white_checkmate_red_rubio.py
+
+----------------------------
+
+Chess_mode = [["  W-Rook ", " W-Knight", " W-Bishop", "  W-King ", "  w-Queen", " W-Bishop", " W-Knight", "  W-Rook "],
+              ["  W-Pawn ", " W-Pawn  ", "  W-Pawn ", "  W-Pawn ", "  W-Pawn ", "  W-Pawn ", "  W-Pawn ", "  W-Pawn "],
+              ["         ", "         ", "         ", "         ", "         ", "         ", "         ", "         "],
+              ["         ", "         ", "         ", "         ", "         ", "         ", "         ", "         "],
+              ["         ", "         ", "         ", "         ", "         ", "         ", "         ", "         "],
+              ["         ", "         ", "         ", "         ", "         ", "         ", "         ", "         "],
+              ["  B-Pawn ", "  B-Pawn ", "  B-Pawn ", "  B-Pawn ", "  B-Pawn ", "  B-Pawn ", "  B-Pawn ", "  B-Pawn "],
+              ["  B-Rook ", " B-Knight", " B-Bishop", "  B-King ", "  B-Queen", " B-Bishop", " B-Knight", " B-Rook  "]]
+
+print("  ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", "\n",
+      "|           |           |           |           |           |           |           |           | ", "\n",
+      "|", Chess_mode[0][0], "|", Chess_mode[0][1], "|", Chess_mode[4][2], "|", Chess_mode[0][3], "|", Chess_mode[2][4], "|", Chess_mode[0][5], "|", Chess_mode[0][6], "|", Chess_mode[0][7], "|", "\n",
+      "|           |           |           |           |           |           |           |           | ", "\n",
+      " ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      "|", Chess_mode[1][0], "|", Chess_mode[1][1], "|", Chess_mode[1][2], "|", Chess_mode[2][3], "|", Chess_mode[1][4], "|", Chess_mode[1][5], "|", Chess_mode[1][6], "|", Chess_mode[1][7], "|", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      " ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      "|", Chess_mode[2][0], "|", Chess_mode[2][1], "|", Chess_mode[4][4], "|", Chess_mode[1][3], "|", Chess_mode[2][4], "|", Chess_mode[2][5], "|", Chess_mode[2][6], "|", Chess_mode[2][7], "|", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      " ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      "|", Chess_mode[3][0], "|", Chess_mode[3][1], "|", Chess_mode[3][2], "|", Chess_mode[4][3], "|", Chess_mode[3][4], "|", Chess_mode[0][2], "|", Chess_mode[3][6], "|", Chess_mode[3][7], "|", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      " ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      "|", Chess_mode[4][4], "|", Chess_mode[4][1], "|", Chess_mode[4][2], "|", Chess_mode[6][3], "|", Chess_mode[4][4], "|", Chess_mode[4][5], "|", Chess_mode[4][6], "|", Chess_mode[4][7], "|", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      " ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      "|", Chess_mode[5][0], "|", Chess_mode[5][1], "|", Chess_mode[4][2], "|", Chess_mode[4][3], "|", Chess_mode[5][4], "|", Chess_mode[6][5], "|", Chess_mode[5][4], "|", Chess_mode[7][6], "|", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      " ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      "|", Chess_mode[6][0], "|", Chess_mode[6][1], "|", Chess_mode[0][4], "|", Chess_mode[4][3], "|", Chess_mode[6][4], "|", Chess_mode[5][5], "|", Chess_mode[6][6], "|", Chess_mode[6][7], "|", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      " ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", "\n",
+"|           |           |           |           |           |           |           |           | ", "\n",
+      "|", Chess_mode[7][0], "|", Chess_mode[7][1], "|", Chess_mode[7][2], "|", Chess_mode[7][3], "|", Chess_mode[7][4], "|", Chess_mode[7][5], "|", Chess_mode[5][6], "|", Chess_mode[7][7], "|" "\n",
+"|           |           |           |           |           |           |           |           | ","\n",
+" ---------- + --------- + --------- + --------- + --------- + --------- + --------- + ----------  ", )
+
+
+---------------------------- x ---------------------------- x ----------------------------
+
+123123123.py
+
+# Listmura = ['tangina', 'bobo', 'hayop', 'gago', 'ulol', 'putangina', 'pakyu', 'fuck', 'tanga']
+#
+# sentence = input('Enter your sentence: ')
+#
+# new = [x for x in sentence.lower().split()]
+#
+# text = ''
+# for word in new:
+#     if word in ListNagmumura:
+#         a = len(word)
+#
+#         text += '*' * a + ' '
+#
+#     else:
+#         text += word + ' '
+#
+# print(text)
+
+def findandsensor(word,start,end):
+    censored=""
+    counter=0
+    for letter in word:
+        if counter >= start and counter <= end:
+            censored += "*"
+        else:
+            censored += letter
+        counter += 1
+    return censored
+listswear= ["bobo","tanga","gago","ulol","tangina","dick","suck","fuck","hayop","pussy"]
+
+intText = input('Type here: ')
+listw= intText.split()
+stat= False
+for word in listw:
+    for swear in listswear:
+        if word.find(swear) > -1:
+            start = word.find(swear)
+            end = start + (len(swear) -1)
+            stat = True
+            break
+        else:
+            stat = False
+    if not stat:
+            print(word,end= " ")
+    else:
+            print(findandsensor(word,start,end),end= " ")
+            
+
+---------------------------- x ---------------------------- x ----------------------------
+
+activity_b_string_red_rubio.py
+
+
+#capitalize()
+a = "bee sting"
+print(a.capitalize())
+
+#casefold()
+a = "BEE"
+print(a.casefold())
+
+#center()
+a = "bee"
+b = a.center(12, "-")
+print(b)
+
+#count()
+a = "Mushroooom soup"
+print(a.count("O"))
+print(a.count("o"))
+print(a.count("oo"))
+print(a.count("ooo"))
+print(a.count("Homer"))
+print(a.count("o", 4, 7))
+print(a.count("o", 7))
+
+#isalpha()
+c = "Fitness"
+print(c.isalpha())
+
+c = "123"
+print(c.isalpha())
+
+c = "$*%!!!"
+print(c.isalpha())
+
+#islower()
+a = " "
+print(a.islower())
+
+a = "123"
+print(a.islower())
+
+a = "_user_123"
+print(a.islower())
+
+a = "Homer"
+print(a.islower())
+
+a = "HOMER"
+print(a.islower())
+
+a = "homer"
+print(a.islower())
+
+a = "HOMER"
+a = a.casefold() #Force lowercase
+print(a.islower())
+
+
+#isnumeric()
+c = "123"
+print(c.isnumeric())
+
+c = u"\u00B2"
+print(c.isnumeric())
+
+c = "1.23"
+print(c.isnumeric())
+
+c = "u123"
+print(c.isnumeric())
+
+c = "Fitness"
+print(c.isnumeric())
+
+c = "$*%!!!"
+print(c.isnumeric())
+
+#swapcase()
+a = "Homer Simpson"
+print(a.swapcase())
+
+#upper()
+a = "bee"
+print(a.upper())
+
+#lower()
+a = "BEE"
+print(a.lower())
+
+
+---------------------------- x ---------------------------- x ----------------------------
+
+string_methods_red_rubio.py
+
+
+print("#1Capitalized")
+word = "hello"
+print(word.capitalize())
+print()
+print("#Islower")
+word = "hi"
+print(word.islower())
+print()
+print("#Center")
+Joel = "Joel"
+print("Hello: ",Joel.center(20))
+print()
+print("#Isnumeric")
+number = "12345"
+print(number.isnumeric())
+print()
+print("#Casefold")
+word = "HELLO WORLD"
+print(word.casefold())
+print()
+print("#Isalpha")
+word = "hello world"
+print(word.isalpha())
+
+
+---------------------------- x ---------------------------- x ----------------------------
+
+swear_filter_red_rubio.py
+
+
+
+bad_words = ['bobo', 'tanga', 'gago', 'putanginamo', 'pakyuka', 'kinginamoka', 'hayupka', 'ulol', 'tarantado', 'bobomo', 'shit', 'motherfuckers', ' pistingyawa', 'tangina', 'pakyu',]
+
+sentence = input('Enter your sentence: ')
+
+
+new = [x for x in sentence.lower().split()]
+
+text = ''
+for word in new:
+    if word in bad_words:
+
+        a = len(word)
+
+        text += '*' * a + ' '
+
+    else:
+        text += word + ' '
+
+print(text)
